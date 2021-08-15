@@ -7,7 +7,7 @@ MAINTAINER vijayendrap@gmail.com
 EXPOSE 8082
 
 # executable ADD service-one-5.0.0-SNAPSHOT.jar app.jar
-ADD service-one.jar app.jar
+ADD ./target/service-one.jar app.jar
 
 # run app as user 'booter'
 RUN /bin/sh -c 'touch /app.jar'

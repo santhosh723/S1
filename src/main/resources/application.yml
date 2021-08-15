@@ -56,7 +56,7 @@ spring:
         healthCheckPath: ${management.contextPath}/health
         healthCheckInterval: 15s
   data:
-    mongodb.uri: mongodb://service-one-db/service-one
+    mongodb.uri: mongodb://service-one-db-0:27017/service-one
   rabbitmq:
     host: rabbit
     port: 5672
